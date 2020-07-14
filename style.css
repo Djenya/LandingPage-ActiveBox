@@ -196,8 +196,22 @@ p {
     text-align: center;
 }
 
+.features__item:hover .features__icon {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
 .features__icon {
     margin-bottom: 25px;
+    
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .features__title {
@@ -304,11 +318,21 @@ p {
     margin-bottom: 30px;
 }
 
+.team__item:hover .team__photo {
+    transform: scale(1.1);
+}
+
 .team__photo {
     display: block;
     max-width: 100%;
     height: auto;
     margin-bottom: 20px;
+    
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
 }
 
 .team__name {
